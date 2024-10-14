@@ -6,6 +6,7 @@
     <title><?= $title ?? 'Nexium' ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="<?= base_url('images/logo-nexium-2.png') ?>" type="image/x-icon">
+    <script src="<?= base_url('js/script.js') ?>" defer></script>
 </head>
 <body>
     <header>
@@ -19,6 +20,5 @@
     <footer>
         <?php require_once "includes/footer.php";?>
     </footer>
-    <script src="<?= base_url('js/script.js') ?>"></script>
 </body>
 </html>

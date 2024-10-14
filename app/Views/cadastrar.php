@@ -2,19 +2,19 @@
 
 <?php $this->section('content') ?>
 
-<div class="flex items-start justify-center h-screen bg-gray-100">
+<div class="flex items-start justify-center p-10 bg-gray-100">
   <div class="p-8 rounded-lg w-96 md:w-1/2 mt-12">
     <h2 class="text-2xl font-bold mb-6 text-center">Crie sua conta</h2>
 
     <p>Tipo de conta:</p>
     <div class="flex items-center mb-4">
-      <input type="radio" id="rdFisico" name="fisico-juridico" value="fisico" class="mr-1" checked="true">
+      <input type="radio" id="rdFisico" name="fisico-juridico" value="fisico" class="mr-1" checked>
       <label for="rdFisico" class="text-sm mr-3">Pessoa física</label>
       <input type="radio" id="rdJuridico" name="fisico-juridico" value="juridico" class="mr-1">
       <label for="rdJuridico" class="text-sm">Pessoa Jurídica</label>
     </div>
 
-    <form>
+    <form action="<?= base_url('') ?>" method="POST">
       <div id="div-pessoa-fisica" class="">
         <div class="mb-3 flex space-x-4">
           <div class="flex-1">
@@ -190,27 +190,8 @@
         </div>
       </div>
 
+    </form>
   </div>
 </div>
-</form>
-</div>
-
-
-
-<script>
-  const divPFisico = document.getElementById('div-pessoa-fisica');
-  const divPJuridica = document.getElementById('div-pessoa-juridica');
-  const rdFisico = document.getElementById('rdFisico');
-  const rdJuridico = document.getElementById('rdJuridico');
-
-  rdFisico.addEventListener('click', function() {
-    divPFisico.classList.remove('hidden');
-    divPJuridica.classList.add('hidden');
-  });
-  rdJuridico.addEventListener('click', function() {
-    divPFisico.classList.add('hidden');
-    divPJuridica.classList.remove('hidden');
-  });
-</script>
 
 <?php $this->endSection() ?>
