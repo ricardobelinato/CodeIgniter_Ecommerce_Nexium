@@ -5,8 +5,7 @@
 <div class="flex items-start justify-center h-screen bg-gray-100">
   <div class="p-8 rounded-lg w-96 mt-12">
     <h2 class="text-2xl font-bold mb-6 text-center">Acesse sua conta</h2>
-
-    <form action="<?= base_url('login') ?>" method="post">
+    <form action="<?= base_url('hardware') ?>" method="post">
       <div class="mb-3">
         <label for="email" class="block text-sm font-medium text-gray-700">E-mail, CPF ou CNPJ</label>
         <input type="text" id="email" name="email" required

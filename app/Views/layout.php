@@ -7,6 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="<?= base_url('images/logo-nexium-2.png') ?>" type="image/x-icon">
     <script src="<?= base_url('js/script.js') ?>" defer></script>
+    <link rel="stylesheet" href="https://social-icons-plugin.netlify.app/dist/social-icons.min.css">
+    <script src="https://social-icons-plugin.netlify.app/dist/social-icons.min.js?whatsapp=https://wa.me/5532998495079&size=40" defer></script>
 </head>
 <body>
     <header>

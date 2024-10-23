@@ -2,7 +2,7 @@
 
 <?php $this->section('content') ?>
 
-<div class="flex items-start justify-center p-10 bg-gray-100">
+<div class="flex items-start justify-center pb-10 bg-gray-100">
   <div class="p-8 rounded-lg w-96 md:w-1/2 mt-12">
     <h2 class="text-2xl font-bold mb-6 text-center">Crie sua conta</h2>
 
