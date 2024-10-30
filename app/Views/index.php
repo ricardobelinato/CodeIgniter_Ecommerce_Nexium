@@ -2,87 +2,67 @@
 
 <?php $this->section('content') ?>
 
-<div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
-
-        <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-
-            <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                    <div>
-                        <h3 class="text-sm text-gray-700">
-                            <a href="#">
-                                <span aria-hidden="true" class="absolute inset-0"></span>
-                                Basic Tee
-                            </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Black</p>
-                    </div>
-                    <p class="text-sm font-medium text-gray-900">$35</p>
-                </div>
-            </div>
-
-            <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                    <div>
-                        <h3 class="text-sm text-gray-700">
-                            <a href="#">
-                                <span aria-hidden="true" class="absolute inset-0"></span>
-                                Basic Tee
-                            </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Black</p>
-                    </div>
-                    <p class="text-sm font-medium text-gray-900">$35</p>
-                </div>
-            </div>
-            
-            <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                    <div>
-                        <h3 class="text-sm text-gray-700">
-                            <a href="#">
-                                <span aria-hidden="true" class="absolute inset-0"></span>
-                                Basic Tee
-                            </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Black</p>
-                    </div>
-                    <p class="text-sm font-medium text-gray-900">$35</p>
-                </div>
-            </div>
-
-            <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                    <div>
-                        <h3 class="text-sm text-gray-700">
-                            <a href="#">
-                                <span aria-hidden="true" class="absolute inset-0"></span>
-                                Basic Tee
-                            </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Black</p>
-                    </div>
-                    <p class="text-sm font-medium text-gray-900">$35</p>
-                </div>
-            </div>
-            
-            <!-- More products... -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?= base_url('images/banner/carousel-1.gif') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-2.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-3.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-4.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-5.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-6.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-7.webp') ?>" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="<?= base_url('images/banner/carousel-8.webp') ?>" class="d-block w-100">
         </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="product-container">
+    <?php include('product_view.php'); ?>
+</div>
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?= base_url('images/banner/home-1.webp') ?>" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+
+<div class="product-container">
+    <?php include('product_view.php'); ?>
 </div>
 
 <?php $this->endSection() ?>

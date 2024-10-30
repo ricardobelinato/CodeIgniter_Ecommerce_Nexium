@@ -1,0 +1,678 @@
+CRITICAL - 2024-10-30 13:24:37 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:39 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:39 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:39 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:50 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:50 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:50 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:24:54 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:25:04 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require_once('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:25:15 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:25:16 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 1.
+ 1 APPPATH\Views\product_view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 1)
+ 2 APPPATH\Views\index.php(52): require('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:00 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:01 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:01 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:01 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:01 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:14 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:15 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:15 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:15 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 13:28:27 --> ErrorException: Undefined array key "imagem"
+[Method: GET, Route: /]
+in APPPATH\Views\product_view.php on line 4.
+ 1 APPPATH\Views\product_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagem"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php', 4)
+ 2 APPPATH\Views\index.php(53): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-30 16:41:34 --> mysqli_sql_exception: Table 'nexium.produtos' doesn't exist in C:\xampp\htdocs\nexium\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\nexium\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\nexium\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nexium\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nexium\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nexium\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nexium\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\nexium\app\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\nexium\app\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+#8 C:\xampp\htdocs\nexium\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\nexium\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\nexium\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nexium\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nexium\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nexium\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-30 16:41:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nexium.produtos' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:41:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nexium.produtos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:41:34 --> [Caused by] mysqli_sql_exception: Table 'nexium.produtos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `produtos`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-30 16:42:16 --> mysqli_sql_exception: Table 'nexium.produtos' doesn't exist in C:\xampp\htdocs\nexium\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\nexium\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\nexium\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nexium\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nexium\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nexium\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nexium\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\nexium\app\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\nexium\app\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+#8 C:\xampp\htdocs\nexium\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\nexium\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\nexium\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nexium\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nexium\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nexium\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-30 16:42:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nexium.produtos' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:42:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nexium.produtos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:42:16 --> [Caused by] mysqli_sql_exception: Table 'nexium.produtos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `produtos`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProductModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(12): App\Models\ProductModel->getAllProducts()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:55:37 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 57.
+ 1 APPPATH\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:55:51 --> ErrorException: Undefined array key "img"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 57.
+ 1 APPPATH\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:55:53 --> ErrorException: Undefined array key "img"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 57.
+ 1 APPPATH\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 16:57:11 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:35:41 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:37:03 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:37:05 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:37:05 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:37:05 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 17:38:17 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 18:00:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('images"
+[Method: GET, Route: base_url%28%27images/product/SSD%20Kingston%20A400.webp%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'images/product/SSD Kingston A400.webp\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-30 18:59:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\product_view.php on line 26.
+ 1 APPPATH\Views\product_view.php(26): number_format(null, 2, ',', '.')
+ 2 APPPATH\Views\index.php(59): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

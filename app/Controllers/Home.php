@@ -2,11 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\ProductModel;
+
 class Home extends BaseController
 {
     public function index(): string
     {
-        return view('index');
+        $productModel = new ProductModel();
+        $data['produtos'] = $productModel->getAllProducts();
+
+        return view('index', $data);
     }
     public function login(): string
     {
