@@ -1,0 +1,164 @@
+CRITICAL - 2024-11-10 19:56:28 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: hardware]
+in APPPATH\Views\produtos\hardware.php on line 7.
+ 1 APPPATH\Views\produtos\hardware.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('produtos/hardware', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('produtos/hardware')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 19:59:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\produtos\hardware.php(1): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('produtos/hardware', [], true)
+ 7 APPPATH\Controllers\Home.php(26): view('produtos/hardware')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 19:59:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\produtos\hardware.php(1): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('produtos/hardware', [], true)
+ 7 APPPATH\Controllers\Home.php(26): view('produtos/hardware')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:00:11 --> ErrorException: Undefined variable $categoria_nome
+[Method: GET, Route: hardware]
+in APPPATH\Views\produtos\hardware.php on line 7.
+ 1 APPPATH\Views\produtos\hardware.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria_nome', 'C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nexium\\app\\Views\\produtos\\hardware.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('produtos/hardware', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('produtos/hardware')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:05:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 20:06:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "categories/hardware.php"
+[Method: GET, Route: hardware]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/hardware.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categories/hardware', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('categories/hardware', [...])
+ 4 APPPATH\Controllers\Home.php(31): App\Controllers\Home->loadCategoryView(1, 'hardware')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hardware()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

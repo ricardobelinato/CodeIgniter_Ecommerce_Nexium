@@ -7,13 +7,14 @@ use CodeIgniter\Model;
 class ProductModel extends Model
 {
     protected $table = 'produtos';
-    
-    protected $allowedFields = [
-        'id_produto', 'img', 'valor_sem_desconto', 'valor', 'nome_produto', 'descricao', 'informacoes_tecnicas'
-    ];
-    
+
     public function getAllProducts()
     {
         return $this->findAll();
+    }
+
+    public function getProductsByCategory($id_categoria)
+    {
+        return $this->where('id_categoria', $id_categoria)->findAll();
     }
 }
