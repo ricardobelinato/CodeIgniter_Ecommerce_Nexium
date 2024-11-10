@@ -2,47 +2,41 @@
 
 namespace App\Controllers;
 
-use App\Models\UsuarioModel; // Modelo para a tabela de usuários
-use App\Models\FuncionarioModel; // Modelo para a tabela de funcionários
+use App\Models\UserModel;
 use CodeIgniter\Controller;
 
 class AuthController extends Controller
 {
     public function login()
     {
-        // Carregar a visão de login
-        return view('login'); // Ajuste conforme necessário
+        helper(['form', 'url']);
+        echo view('login');
     }
 
-    public function loginProcess()
+    public function authenticate()
     {
-        $email = $this->request->getPost('email');
-        $senha = $this->request->getPost('senha');
+        $session = session();
+        $userModel = new UserModel();
 
-        $usuarioModel = new UsuarioModel();
-        $funcionarioModel = new FuncionarioModel();
+        $identifier = $this->request->getPost('email');
+        $password = $this->request->getPost('password');
 
-        // Verificar na tabela de usuários
-        $usuario = $usuarioModel->where('email', $email)->first();
+        $user = $userModel->getUserByEmailOrCpfOrCnpj($identifier);
 
-        if ($usuario && password_verify($senha, $usuario['senha'])) {
-            // Login bem-sucedido para o usuário
-            session()->set('user_id', $usuario['id']);
-            session()->set('user_type', 'usuario');
-            return redirect()->to('/hardware'); // Ajuste conforme necessário
+        if ($user && MD5($password)==$user['senha']) {
+            $sessionData = [
+                'id' => $user['id'],
+                'tipo_usuario' => $user['tipo_usuario'],
+                'email' => $user['email'],
+                'is_adm' => $user['is_adm'],
+                'logged_in' => true
+            ];
+            $session->set($sessionData);
+
+            return redirect()->to('/hardware');
+        } else {
+            $session->setFlashdata('error', 'Login ou senha inválidos');
+            return redirect()->to('/login');
         }
-
-        // Verificar na tabela de funcionários
-        $funcionario = $funcionarioModel->where('email', $email)->first();
-
-        if ($funcionario && password_verify($senha, $funcionario['senha'])) {
-            // Login bem-sucedido para o funcionário
-            session()->set('user_id', $funcionario['id']);
-            session()->set('user_type', 'funcionario');
-            return redirect()->to('/perifericos'); // Ajuste conforme necessário
-        }
-
-        // Se não encontrou nenhum usuário ou funcionário
-        return redirect()->back()->with('error', 'Email ou senha incorretos.');
     }
 }
