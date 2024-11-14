@@ -22,3 +22,8 @@ $routes->get('/login', 'AuthController::login');
 $routes->post('/login', 'AuthController::authenticate');
 $routes->get('/logout', 'AuthController::logout');
 $routes->get('/dashboard', 'DashboardController::index', ['filter' => 'auth']);
+
+$routes->get('cadastro', 'UsuarioController::cadastrar');
+$routes->post('cadastro/salvar', 'UsuarioController::salvar');
+
+$routes->get('/admin/dashboard', 'AdminController::dashboard');

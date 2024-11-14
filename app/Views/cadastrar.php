@@ -6,15 +6,7 @@
   <div class="p-8 rounded-lg w-96 md:w-1/2 mt-12">
     <h2 class="text-2xl font-bold mb-6 text-center">Crie sua conta</h2>
 
-    <p>Tipo de conta:</p>
-    <div class="flex items-center mb-4">
-      <input type="radio" id="rdFisico" name="fisico-juridico" value="fisico" class="mr-1" checked>
-      <label for="rdFisico" class="text-sm mr-3">Pessoa física</label>
-      <input type="radio" id="rdJuridico" name="fisico-juridico" value="juridico" class="mr-1">
-      <label for="rdJuridico" class="text-sm">Pessoa Jurídica</label>
-    </div>
-
-    <form action="<?= base_url('') ?>" method="POST">
+    <form action="<?= base_url('cadastro/salvar') ?>" method="POST">
       <div id="div-pessoa-fisica" class="">
         <div class="mb-3 flex space-x-4">
           <div class="flex-1">
@@ -74,92 +66,22 @@
         </div>
       </div>
 
-      <div id="div-pessoa-juridica" class="hidden">
-        <div class="mb-3 flex space-x-4">
-          <div class="flex-1">
-            <label for="nomeFantasia" class="block text-sm font-medium text-gray-700">Nome Fantasia</label>
-            <input type="text" id="nomeFantasia" name="nomeFantasia" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-          <div class="flex-1">
-            <label for="razaoSocial" class="block text-sm font-medium text-gray-700">Razão Social</label>
-            <input type="text" id="razaoSocial" name="razaoSocial" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-        </div>
-
-        <div class="mb-3 flex space-x-4">
-          <div class="flex-1">
-            <label for="cnpj" class="block text-sm font-medium text-gray-700">CNPJ</label>
-            <input type="text" id="cnpj" name="cnpj" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-          <div class="flex-1">
-            <label for="dataAbertura" class="block text-sm font-medium text-gray-700">Data de Abertura</label>
-            <input type="date" id="dataAbertura" name="dataAbertura" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-        </div>
-
-        <div class="mb-3 flex space-x-4">
-          <div class="flex-1">
-            <label for="infoTributaria" class="block text-sm font-medium text-gray-700">Informações Tributárias</label>
-            <select id="infoTributaria" name="infoTributaria" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
-              <option value="" disabled selected>Selecione</option>
-              <option value="contribuinteICMS">Contribuinte ICMS</option>
-              <option value="naoContribuinteICMS">Não Contribuinte ICMS</option>
-              <option value="isentoInscricaoEstadual">Isento de Inscrição Estadual</option>
-            </select>
-          </div>
-          <div class="flex-1">
-            <label for="inscricaoEstadual" class="block text-sm font-medium text-gray-700">Inscrição Estadual</label>
-            <input type="text" id="inscricaoEstadual" name="inscricaoEstadual"
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-        </div>
-
-        <div class="mb-3 flex space-x-4">
-          <div class="flex-1">
-            <label for="responsavelCompra" class="block text-sm font-medium text-gray-700">Responsável pela Compra</label>
-            <input type="text" id="responsavelCompra" name="responsavelCompra" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-          <div class="flex-1">
-            <label for="celularPJ" class="block text-sm font-medium text-gray-700">Celular</label>
-            <input type="tel" id="celularPJ" name="celularPJ" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-        </div>
-
-        <div class="mb-3 flex space-x-4">
-          <div class="flex-1">
-            <label for="telefoneContato" class="block text-sm font-medium text-gray-700">Telefone para Contato</label>
-            <input type="tel" id="telefoneContato" name="telefoneContato"
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-          <div class="flex-1">
-            <label for="emailPJ" class="block text-sm font-medium text-gray-700">Email</label>
-            <input type="email" id="emailPJ" name="emailPJ" required
-              class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          </div>
-        </div>
-
-        <div class="mb-3">
-          <label for="senhaPJ" class="block text-sm font-medium text-gray-700">Crie sua senha</label>
-          <input type="password" id="senhaPJ" name="senhaPJ" required
-            class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-        </div>
-
-        <div class="mb-3">
-          <label for="confirmarSenhaPJ" class="block text-sm font-medium text-gray-700">Confirme sua senha</label>
-          <input type="password" id="confirmarSenhaPJ" name="confirmarSenhaPJ" required
-            class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
-        </div>
-      </div>
-
       <button type="submit"
-        class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Criar</button>
+        class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Criar
+      </button>
+
+      <?php if (session()->getFlashdata('success')): ?>
+        <p class="text-green-500">
+          <?= session()->getFlashdata('success') ?>
+        </p>
+      <?php endif; ?>
+
+      <?php if (session()->getFlashdata('error')): ?>
+        <p class="text-red-500">
+          <?= session()->getFlashdata('error') ?>
+        </p>
+      <?php endif; ?>
+
 
       <div class="mb-4 mt-1">
         <p class="text-sm text-gray-600">Já possui cadastro? <a href="<?= base_url('login') ?>" class="text-blue-600 hover:underline">Entrar</a></p>
@@ -184,12 +106,11 @@
 
           <button class="flex items-center justify-center w-10 h-10 bg-black text-white rounded-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black">
             <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-              <path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+              <path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.5 139.4 0 189.4 0 261.9c0 48.8 41.8 87.9 93.5 88.2 30.2 0 56.8-13.2 74.1-35.3 9.8 18.5 21.4 28.3 34.9 28.3 13.1 0 25.9-10.2 38.3-18.1 0 0 56.3-43.2 74.6-72.5 8.5-13.7 13.8-27.9 14.6-40.6zm-34.9 40.3c-23.2 37.3-45.8 69.5-61.2 89.5-13.2 16.2-19.9 19.3-27.1 19.3-7.6 0-14.6-4.4-20.2-8.8 8.2-12.5 16.4-23.7 24.9-35.7 22.2 2.8 34.5 10.3 53.3-18.8 11.1 21.6 8.8 24.1 7.7 29.8zm25.4-19.3z" />
             </svg>
           </button>
         </div>
       </div>
-
     </form>
   </div>
 </div>
