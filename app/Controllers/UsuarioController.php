@@ -15,14 +15,12 @@ class UsuarioController extends BaseController
     {
         $usuarioModel = new UsuarioModel();
 
-        // Dados comuns
         $dados = [
             'email' => $this->request->getPost('email'),
             'celular' => $this->request->getPost('celular') ?? $this->request->getPost('celularPJ'),
             'senha' => password_hash($this->request->getPost('senha'), PASSWORD_BCRYPT),
         ];
 
-        // Dados para Pessoa Física
         if ($this->request->getPost('nome')) {
             $dados += [
                 'nome_completo' => $this->request->getPost('nome'),
@@ -31,20 +29,6 @@ class UsuarioController extends BaseController
                 'genero' => $this->request->getPost('genero'),
             ];
         }
-
-        // Dados para Pessoa Jurídica
-        // if ($this->request->getPost('nomeFantasia')) {
-        //     $dados += [
-        //         'nome_fantasia' => $this->request->getPost('nomeFantasia'),
-        //         'razao_social' => $this->request->getPost('razaoSocial'),
-        //         'cnpj' => $this->request->getPost('cnpj'),
-        //         'data_abertura' => $this->request->getPost('dataAbertura'),
-        //         'informacoes_tributarias' => $this->request->getPost('infoTributaria'),
-        //         'inscricao_estadual' => $this->request->getPost('inscricaoEstadual'),
-        //         'responsavel_compra' => $this->request->getPost('responsavelCompra'),
-        //         'telefone_contato' => $this->request->getPost('telefoneContato'),
-        //     ];
-        // }
 
         if ($usuarioModel->insert($dados)) {
             session()->setFlashdata('success', 'Cadastro realizado com sucesso!');

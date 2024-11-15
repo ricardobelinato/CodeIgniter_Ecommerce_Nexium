@@ -20,7 +20,7 @@
       </div>
 
       <div class="mb-4">
-        <a href="">
+        <a href="<?= base_url('esqueci-senha') ?>">
           <u>
             <p class="text-sm text-gray-600">Esqueceu a senha?</p>
           </u>
