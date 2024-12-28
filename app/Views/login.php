@@ -2,7 +2,7 @@
 
 <?php $this->section('content') ?>
 
-<div class="flex items-start justify-center h-screen bg-gray-100">
+<div class="flex items-start justify-center h-screen">
   <div class="p-8 rounded-lg w-96 mt-12">
     <h2 class="text-2xl font-bold mb-6 text-center">Acesse sua conta</h2>
 

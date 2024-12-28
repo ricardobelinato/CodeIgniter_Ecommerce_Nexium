@@ -2,3 +2,24 @@
     pointer-events: none;
     opacity: 0.5;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card:hover {
+    border-color: #00438b;         /* Muda a cor da borda quando o mouse passa por cima */
+    background-color: #f0f8ff;      /* Muda o fundo para uma cor mais clara */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do card */
+    transform: scale(1.1);
+}
+
+.card-button {
+    margin-top: auto;
+}

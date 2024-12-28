@@ -60,8 +60,4 @@
     </div>
 </div>
 
-<div class="product-container">
-    <?php include('product_view.php'); ?>
-</div>
-
 <?php $this->endSection() ?>

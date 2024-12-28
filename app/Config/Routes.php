@@ -57,3 +57,30 @@ $routes->group('admin', function ($routes) {
     $routes->post('produtos/atualizar/(:num)', 'ProdutoController::atualizar/$1');
     $routes->get('produtos/deletar/(:num)', 'ProdutoController::deletar/$1');
 });
+
+$routes->get('admin/pedidos', 'PedidoController::index');
+$routes->get('admin/pedidos/criar', 'PedidoController::criar');
+$routes->post('admin/pedidos/criar', 'PedidoController::salvar');
+$routes->get('admin/pedidos/editar/(:num)', 'PedidoController::editar/$1');
+$routes->post('admin/pedidos/atualizar/(:num)', 'PedidoController::atualizar/$1');
+$routes->get('admin/pedidos/deletar/(:num)', 'PedidoController::deletar/$1');
+
+$routes->group('admin', function($routes) {
+    // Exibir todos os itens do pedido de um pedido específico
+    $routes->get('itens-pedido/(:num)', 'ItemPedidoController::index/$1'); // $1: id_pedido
+
+    // Criar um novo item
+    $routes->get('itens-pedido/criar/(:num)', 'ItemPedidoController::criar/$1'); // $1: id_pedido
+    $routes->post('itens-pedido/criar/(:num)', 'ItemPedidoController::salvar/$1'); // $1: id_pedido
+
+    // Editar um item
+    $routes->get('itens-pedido/editar/(:num)', 'ItemPedidoController::editar/$1'); // $1: id_item
+    $routes->post('itens-pedido/editar/(:num)', 'ItemPedidoController::atualizar/$1'); // $1: id_item
+
+    // Excluir um item
+    $routes->get('itens-pedido/deletar/(:num)', 'ItemPedidoController::deletar/$1'); // $1: id_item
+});
+
+
+
+$routes->get('produto/detalhes/(:num)', 'ProductController::detalhes/$1');

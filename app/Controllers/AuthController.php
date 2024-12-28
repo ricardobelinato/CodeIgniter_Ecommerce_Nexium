@@ -9,7 +9,6 @@ use PHPMailer\PHPMailer\Exception;
 
 class AuthController extends Controller
 {
-    // Funções relacionadas à autenticação
     public function login()
     {
         helper(['form', 'url']);
@@ -53,10 +52,8 @@ class AuthController extends Controller
         return redirect()->to('/login');
     }
 
-    // Funções administrativas
     public function adminDashboard()
     {
-        // Renderiza a página do painel administrativo
         return view('admin/dashboard');
     }
 
@@ -71,15 +68,12 @@ class AuthController extends Controller
                 return redirect()->to('/esqueceuasenha');
             }
 
-            // Usa o método já criado no UserModel para buscar o usuário
             $userModel = new \App\Models\UserModel();
             $user = $userModel->getUserByEmailOrCpf($identifier);
 
             if ($user) {
-                // Geração do token de recuperação (aqui você pode usar algum tipo de hash único)
                 $token = bin2hex(random_bytes(50));
 
-                // Chama a função para enviar o e-mail de recuperação
                 if ($this->enviarEmailRecuperacao($user['email'], $token)) {
                     session()->setFlashdata('success', 'Link de recuperação enviado para o e-mail informado.');
                 } else {
@@ -92,7 +86,7 @@ class AuthController extends Controller
             return redirect()->to('/esqueceuasenha');
         }
 
-        return view('esqueceuasenha');
+        return view('esqueci_senha');
     }
 
     private function enviarEmailRecuperacao($email, $token)
@@ -100,8 +94,7 @@ class AuthController extends Controller
         $mail = new PHPMailer(true);
 
         try {
-            // Configurações do servidor SMTP
-            $mail->isSMTP();                                            // Envia por SMTP
+            $mail->isSMTP();                                              // Envia por SMTP
             $mail->Host       = 'smtp.seudominio.com';                    // Endereço do servidor SMTP
             $mail->SMTPAuth   = true;                                     // Ativa autenticação SMTP
             $mail->Username   = 'seuemail@seudominio.com';                // Seu e-mail de envio
@@ -115,17 +108,15 @@ class AuthController extends Controller
             // Destinatário
             $mail->addAddress($email);                                    // E-mail do destinatário
 
-            // Conteúdo do e-mail
+            // Contúdo do e-mail
             $mail->isHTML(true);                                           // Define o formato como HTML
             $mail->Subject = 'Recuperação de Senha';
             $mail->Body    = "Olá!<br><br>Recebemos uma solicitação para a recuperação de sua senha. Clique no link abaixo para redefinir sua senha:<br><br><a href='" . base_url('nova-senha/' . $token) . "'>Redefinir Senha</a><br><br>Se você não solicitou essa recuperação, por favor, ignore este e-mail.";
 
-            // Envia o e-mail
             $mail->send();
 
             return true;
         } catch (Exception $e) {
-            // Se falhar, captura o erro e retorna false
             return false;
         }
     }
