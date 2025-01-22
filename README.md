@@ -3,20 +3,26 @@
 Nexium é um sistema de e-commerce desenvolvido utilizando o framework CodeIgniter com PHP, projetado para oferecer uma experiência de usuário responsiva e moderna. O projeto segue a arquitetura Model-View-Controller (MVC), garantindo uma separação clara entre lógica, interface e dados.
 
 ## 🚀 Tecnologias e Ferramentas Utilizadas
-> CodeIgniter (PHP): Framework para desenvolvimento ágil com suporte a MVC.
-> MySQL: Banco de dados relacional para armazenamento eficiente e escalável.
-> Tailwind CSS: Framework de design moderno para estilização responsiva e consistente.
-> JavaScript: Interatividade e dinamicidade na interface do usuário.
-> HTML5 e CSS3: Estrutura e estilos básicos.
+> **CodeIgniter (PHP):** Framework para desenvolvimento ágil com suporte a MVC. <br>
+> **MySQL:** Banco de dados relacional para armazenamento eficiente e escalável. <br>
+> **Tailwind CSS:** Framework de design moderno para estilização responsiva e consistente. <br>
+> **JavaScript:** Interatividade e dinamicidade na interface do usuário. <br>
+> **HTML5 e CSS3:** Estrutura e estilos básicos.
+
+<br>
 
 ## 🎯 Funcionalidades
-> Navegação e exibição de produtos.
-> Carrinho de compras totalmente funcional.
-> Sistema de autenticação para usuários e administradores.
-> Painel administrativo para gerenciamento de produtos, categorias e pedidos.
+> Navegação e exibição de produtos. <br>
+> Carrinho de compras totalmente funcional. <br>
+> Sistema de autenticação para usuários e administradores. <br>
+> Painel administrativo para gerenciamento de produtos, categorias e pedidos. <br>
 > Layout responsivo para diferentes dispositivos.
 
+<br>
+
 ## 🖥️ Demonstração
+
+<br>
 
 ## 🛠️ Configuração e Uso
 1. Clone o repositório:
@@ -44,12 +50,16 @@ php spark serve
 http://localhost:8080
 ```
 
+<br>
+
 ## 📂 Estrutura do Projeto
-application/
-  ├── controllers/    # Lógica de controle
-  ├── models/         # Lógica de dados
-  ├── views/          # Interface do usuário
-public/
-  ├── images/         # Imagens do projeto
-  ├── css/            # Arquivos CSS
-  ├── js/             # Arquivos JavaScript
+<pre>
+    application/
+      ├── controllers/    # Lógica de controle
+      ├── models/         # Lógica de dados
+      └── views/          # Interface do usuário
+    public/
+      ├── images/         # Imagens do projeto
+      ├── css/            # Arquivos CSS
+      └── js/             # Arquivos JavaScript
+</pre>
