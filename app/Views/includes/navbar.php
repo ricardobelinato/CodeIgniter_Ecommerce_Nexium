@@ -28,7 +28,7 @@
       <!-- Seção de perfil/usuário -->
       <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 space-x-6">
         <!-- Ícone de carrinho -->
-        <button id="carrinho-btn" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 hover:text-white" aria-controls="mobile-carrinho" aria-expanded="false">
+        <button id="carrinho-btn" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 hover:text-white">
           <div class="hidden sm:block p-2">
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
@@ -106,41 +106,3 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-<!-- Carrinho Modal -->
-<div id="carrinho-modal" class="fixed inset-0 bg-gray-800 bg-opacity-75 hidden" style="z-index: 999;">
-  <div class="relative w-full h-full flex items-center justify-center sm:w-1/3 sm:h-full sm:right-0 sm:fixed sm:inset-y-0 sm:left-auto bg-white rounded-lg shadow-lg">
-    <!-- Botão para fechar o carrinho -->
-    <button id="close-carrinho-btn" class="absolute top-4 right-4 text-gray-700 hover:text-gray-900">
-      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-    </button>
-
-    <!-- Conteúdo do carrinho -->
-    <div class="p-6 w-full">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">Meu Carrinho</h2>
-
-      <!-- Lista de itens no carrinho -->
-      <div id="cart-items" class="space-y-4">
-        <p class="text-gray-500">Seu carrinho está vazio.</p>
-      </div>
-
-      <!-- Resumo e total -->
-      <div id="cart-summary" class="mt-6 border-t pt-4 hidden">
-        <div class="flex justify-between items-center">
-          <span class="text-lg font-medium text-gray-800">Total:</span>
-          <span id="cart-total" class="text-lg font-bold text-gray-900">R$ 0,00</span>
-        </div>
-        <button id="checkout-btn" class="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">
-          Finalizar Compra
-        </button>
-      </div>
-    </div>
-  </div>
-</div>

@@ -1,60 +1,55 @@
-# CodeIgniter 4 Framework
+# Eccomerce Nexium, desenvolvido em Codeigniter/PHP
 
-## What is CodeIgniter?
+Nexium é um sistema de e-commerce desenvolvido utilizando o framework CodeIgniter com PHP, projetado para oferecer uma experiência de usuário responsiva e moderna. O projeto segue a arquitetura Model-View-Controller (MVC), garantindo uma separação clara entre lógica, interface e dados.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🚀 Tecnologias e Ferramentas Utilizadas
+> CodeIgniter (PHP): Framework para desenvolvimento ágil com suporte a MVC.
+> MySQL: Banco de dados relacional para armazenamento eficiente e escalável.
+> Tailwind CSS: Framework de design moderno para estilização responsiva e consistente.
+> JavaScript: Interatividade e dinamicidade na interface do usuário.
+> HTML5 e CSS3: Estrutura e estilos básicos.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 🎯 Funcionalidades
+> Navegação e exibição de produtos.
+> Carrinho de compras totalmente funcional.
+> Sistema de autenticação para usuários e administradores.
+> Painel administrativo para gerenciamento de produtos, categorias e pedidos.
+> Layout responsivo para diferentes dispositivos.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## 🖥️ Demonstração
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 🛠️ Configuração e Uso
+1. Clone o repositório:
+```bash
+git clone https://github.com/ricardobelinato/codeigniter_ecommerce_nexium
+```
 
-## Important Change with index.php
+2. Configure o banco de dados no arquivo .env localizado na raiz do projeto e, em seguida, execute as migrations para preparar o banco de dados:
+```bash
+php spark migrate
+```
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+3. Instale as dependências:
+```bash
+composer install
+```
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+4. Inicie o servidor local:
+```bash
+php spark serve
+```
 
-**Please** read the user guide for a better explanation of how CI4 works!
+5. Acesse o projeto no navegador:
+```bash
+http://localhost:8080
+```
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## 📂 Estrutura do Projeto
+application/
+  ├── controllers/    # Lógica de controle
+  ├── models/         # Lógica de dados
+  ├── views/          # Interface do usuário
+public/
+  ├── images/         # Imagens do projeto
+  ├── css/            # Arquivos CSS
+  ├── js/             # Arquivos JavaScript

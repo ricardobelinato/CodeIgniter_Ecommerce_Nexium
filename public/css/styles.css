@@ -14,9 +14,9 @@
 }
 
 .card:hover {
-    border-color: #00438b;         /* Muda a cor da borda quando o mouse passa por cima */
-    background-color: #f0f8ff;      /* Muda o fundo para uma cor mais clara */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do card */
+    border-color: #00438b;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
 }
 
